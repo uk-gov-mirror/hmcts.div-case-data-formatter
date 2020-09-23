@@ -12,6 +12,7 @@ variable "component" {
 
 variable "env" {
     type = "string"
+    default = "preprod"
 }
 
 variable "tenant_id" {}
